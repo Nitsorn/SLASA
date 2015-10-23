@@ -1,0 +1,111 @@
+/* Smartphones (landscape) ----------- */
+@media only screen  and (max-width : 480px) {
+
+	.about {margin-top: 200px}
+	.container p, , .act_des , .container ul {line-height: 25px; font-size: 9pt;}   
+	.img_des {padding: 5px;}
+	.img_des p:nth-child(2), .img_des p:nth-child(3){font-size: 10pt}
+	.act_des {height: 530px;}
+	nav a {font-size: 8pt}
+	#food_info {height: 400px;}
+	#logo_frame {width: 100px;}
+	.logo {width: 100px;margin-top: 100px;}
+   	#address {width: 80%;}
+   	#email a {font-size: 10pt}
+   	.contact{display: block; height: 210px;}
+   	#email, #meet {width: 100%;}
+   	#address a {font-size: 9pt}
+
+
+
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 768px) {
+   
+   body {height: 400px;}
+   .about {margin-top: 400px}
+	.container p,.container ul, .act_des p {line-height: 20px; font-size: 10pt;}
+	.img_des {padding: 5px 4px 0px 4px;}
+	.img_des p:nth-child(2), .img_des p:nth-child(3) {font-size: 10pt}
+	.act {font-size: 12pt; width: 85%; text-align: center; margin: auto;}
+	.act_des {height: 500px;}
+	.member .row {margin-top: 50px}
+	nav a {font-size: 8pt}
+	#food_info {height: 500px;}
+	#logo_frame {width: 150px;}
+   	.logo {width: 150px;margin-top: 150px;}
+   	.member_info {margin-top: 20px;}
+   	.member_info h4 {font-size: 14pt;}
+   	#address {width: 70%;}
+   	#email a {font-size: 14pt;margin-top: 240px;}
+   	.contact{display: block; height: 330px;}
+   	#email, #meet {width: 100%;}
+   	.contact h2 {font-size: 25pt;}
+   	#food_info{width: 70%;padding: 10px}
+   	#address a {font-size: 9pt}
+
+}  
+@media only screen and (min-width : 768px) and (max-width: 1224px){
+   
+   body {height: 400px;}
+   .about {margin-top: 600px}
+	.container p,.container ul, .act_des  {line-height: 25px; font-size: 13pt;}
+	.img_des {padding: 4px 7px 0px 7px;}
+	.img_des p:nth-child(2), .img_des p:nth-child(3){font-size: 10pt; line-height: 15pt;}
+	.act_des {height: 400px;}
+	.act {font-size: 14pt;width: 80%;margin: auto;}
+	.member .row {margin-top: 80px}
+	nav a {font-size: 10pt}
+	#food_info {height: 600px;}
+	#logo_frame {width: 150px;}
+	.logo {width: 150px;margin-top: 250px;}
+   	#address {width: 80%;}
+   	#email a {font-size: 16pt}
+   	.contact{display: inline-block; height: 350px;}
+   	.contact h2 {font-size: 35pt;}
+   	#food_info{width: 80%; padding: 20px}
+   	#address a {font-size: 10pt}
+
+
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+   
+	.about {margin-top: 800px}
+	.container p, .act_des {line-height: 30px;}
+	nav a {font-size: 12pt}
+	#food_info {height: 480px;}
+	.img_des {padding: 1px 5px 0px 5px;}
+	.img_des p:nth-child(2), .img_des p:nth-child(3){font-size: 11pt;line-height: 18pt;}
+	.act {font-size: 16pt; width: 100%;}
+	.act_des {height: 370px;}
+	.member .row {margin-top: 100px}
+	#logo_frame {width: 400px;}
+   .logo {width: 400px;margin-top: 250px;}
+   	#address {width: 60%;}
+   	.contact {display: inline-block; height: 380px;}
+   	#food_info{width: 90%;padding: 30px}
+   	#address a {font-size: 11pt}
+
+
+}
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+
+   .about {margin-top: 1000px}
+	.container p, .act_des  {line-height: 30px;}
+	nav a {font-size: 12pt}
+	#food_info {height: 480px;}
+	.img_des {padding: 1px 7px 0px 7px;}
+	.img_des p:nth-child(2), .img_des p:nth-child(3){font-size: 11pt;line-height: 20pt;}
+	.act {font-size: 16pt; width: 100%;}
+	.member .row {margin-top: 100px}
+	#logo_frame {width: 400px;}
+   .logo {width: 400px;margin-top: 350px;}
+   	#address {width: 60%;}
+   	.contact{display: inline-block; height: 350px;}
+   	#food_info{width: 90%;padding: 30px}
+
+}
+
+   
